@@ -1,0 +1,57 @@
+ja:
+  label_import: "インポート"
+  label_issue_importer: "チケットのインポート"
+  label_upload_notice: "インポートするCSVファイルを選択してください。ファイルの最初にはヘッダ行が必要です。"
+  label_upload_format: "ファイルフォーマットのオプション"
+  label_upload_encoding: "エンコーディング:"
+  label_upload_splitter: "フィールド区切り文字:"
+  label_upload_wrapper: "フィールド囲み文字:"
+
+  label_load_rules: "保存されたルールを読み込む"
+  label_toplines: "%{value}の先頭"
+  label_match_columns: "列のマッチング"
+  label_match_select: "対応させるフィールドの選択"
+  label_import_rule: "インポートルール"
+  label_default_tracker: "デフォルトのトラッカー:"
+  label_update_issue: "既存のチケットを更新する"
+  label_update_journal_only: "履歴関連フィールドのみ更新する"
+  label_journal_field: "履歴として使用するフィールド:"
+  label_journal_author: "履歴の作成者として使用するカラムを選択:"
+  label_journal_created_on: "履歴の作成日として使用するカラムを選択:"
+  label_importer_send_emails: "通知メールを送る"
+  label_importer_add_categories: "新しいカテゴリなら自動的に追加"
+  label_importer_add_versions: "新しいターゲットのバージョンなら自動的に追加"
+  label_unique_field: "チケットの特定に使うユニークなフィールド（既存チケットの更新または連携をインポートする際に必須）:"
+  label_importer_add_custom_fields: "新しいカスタムフィールドリスト値なら自動的に追加"
+  label_use_user_name: "ユーザの特定に名前を使う（デフォルトはログインID）"
+  label_check_non_exist_user: "存在しないユーザはエラーにする"
+
+  label_update_other_project: "他プロジェクトのチケット更新を許可する"
+  label_ignore_non_exist: "存在しないチケットの指定を無視する"
+  label_rule_name: "ルール名を入力:"
+
+  label_import_result: "インポート結果"
+  label_result_notice: "%{handle_count}件のチケットを処理し、%{success_count} 件のチケットをインポートしました。"
+  label_result_projects: "更新したプロジェクト:"
+  label_result_issues: "%{count}行"
+  label_result_failed: "%{count}行が失敗： 最初のエラー %{error}"
+  field_parent_issue_id: "親チケットのID"
+
+  option_ignore: "無視"
+
+  button_upload: "アップロード"
+  button_submit: "送信"
+  button_save_rules_and_submit: "マッチングルールを保存して次へ"
+
+  text_rmi_specify_unique_field_for_update: "既存チケットの更新を選択されたので、チケットの特定に使うユニークなフィールドの選択が必要です。"
+  text_rmi_specify_unique_field_for_column: "「%{column}」という連携があるカラムをインポートしているので、チケットの特定に使うユニークなフィールドの選択が必要です。"
+  text_rmi_specify_unique_field_for_unique: "チケットの特定に使うユニークなフィールドに指定された「%{column}」は、対応させるフィールドが選択されていません。"
+  text_rmi_specify_unique_field_for_cf: "チケットの特定に使うユニークなフィールドに指定された 「%{column}」 は、フィルタとして使用できないカスタムフィールドです"
+
+  text_file_not_specified: "ファイルを選択して下さい"
+
+  activerecord:
+    errors:
+      messages:
+        record_invalid: "Validationエラー %{errors}"
+
